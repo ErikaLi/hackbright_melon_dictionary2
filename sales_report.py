@@ -37,7 +37,7 @@ for line in f:
     melons = int(entries[2])
     melons_sold_by_salesperson[salesperson] = melons_sold_by_salesperson.get(salesperson, 0) + melons
 
- for salesperson, melons_sold in melons_sold_by_salesperson.iteritems():
-     print "{} sold {} melons".format(salesperson, melons_sold)
+for salesperson, melons_sold in melons_sold_by_salesperson.iteritems():
+    print "{} sold {} melons".format(salesperson, melons_sold)
 
 
